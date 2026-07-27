@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- تدرّج مطابق لخلفية الـ hero في الصفحة: amber-600 ← amber-800 ← amber-950 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr xmlns:aapt="http://schemas.android.com/aapt" name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="14"
+                android:startY="0"
+                android:endX="94"
+                android:endY="108">
+                <item android:offset="0.0" android:color="#3B5FAE" />
+                <item android:offset="0.55" android:color="#1C3573" />
+                <item android:offset="1.0" android:color="#0A1730" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- وهج خفيف أعلى اليمين، نفس فكرة .hero::before -->
+    <path android:pathData="M78,4 a30,30 0 1,0 0.1,0 z">
+        <aapt:attr xmlns:aapt="http://schemas.android.com/aapt" name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="78"
+                android:centerY="34"
+                android:gradientRadius="30">
+                <item android:offset="0.0" android:color="#40FFFFFF" />
+                <item android:offset="1.0" android:color="#00FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- مطابقة لمتغيّرات :root في app/src/main/assets/index.html -->
+<resources>
+    <color name="amber_950">#0a1730</color>
+    <color name="amber_900">#122452</color>
+    <color name="amber_800">#1c3573</color>
+    <color name="amber_600">#3b5fae</color>
+    <color name="cream">#f9fafe</color>
+</resources>

@@ -1,0 +1,39 @@
+<!--
+  مصدر أيقونة التطبيق القديمة (API 24-25) — نفس رسم الأيقونة التكيّفية لكن
+  مقصوصًا على المربع الأوسط 72×72 وبزوايا دائرية.
+  يُحوَّل إلى PNG عبر tools/render-icons.sh
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+  <defs>
+    <linearGradient id="bg" x1="14" y1="0" x2="94" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3B5FAE"/>
+      <stop offset="0.55" stop-color="#1C3573"/>
+      <stop offset="1" stop-color="#0A1730"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78" cy="34" r="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="108" height="108" rx="24" fill="url(#bg)"/>
+  <circle cx="78" cy="34" r="30" fill="url(#glow)"/>
+
+  <g fill="#EAF1FF">
+    <circle cx="54.00" cy="31.00" r="4.6"/>
+    <circle cx="64.50" cy="33.81" r="4.6"/>
+    <circle cx="72.19" cy="41.50" r="4.6"/>
+    <circle cx="75.00" cy="52.00" r="4.6"/>
+    <circle cx="72.19" cy="62.50" r="4.6"/>
+    <circle cx="64.50" cy="70.19" r="4.6"/>
+    <circle cx="43.50" cy="70.19" r="4.6"/>
+    <circle cx="35.81" cy="62.50" r="4.6"/>
+    <circle cx="33.00" cy="52.00" r="4.6"/>
+    <circle cx="35.81" cy="41.50" r="4.6"/>
+    <circle cx="43.50" cy="33.81" r="4.6"/>
+  </g>
+
+  <circle cx="54" cy="73" r="6" fill="#FFFFFF"/>
+  <path d="M54,79 L54,86" stroke="#EAF1FF" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M54,86 l4.5,7 a4.5,4.5 0 0,1 -9,0 z" fill="#C2D3F2"/>
+</svg>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- الإعدادات المحفوظة تعيش في localStorage الخاص بالـ WebView ضمن ملفات التطبيق. -->
+<full-backup-content>
+    <include domain="database" path="." />
+    <include domain="file" path="app_webview" />
+</full-backup-content>
